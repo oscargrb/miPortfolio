@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+.main-bar{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.logo-div{
+    
+    width: 33.3%;
+    display: inline;
+    text-align: left;
+}
+
+.menu-div{
+   
+    margin: auto;
+    width: 33.3%;
+}
+.search-div{
+    
+    display: inline;
+    margin: auto;
+    width: 33.3%;
+}
+.menu-div a{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+}
+.menu-div a:hover{
+    color: rgb(180,10,180);
+}
+.logo{
+    width: 70px;
+}
+.search-div input{
+
+    font-family: monospace;
+    width: 200px;
+    font-size: 20px;
+}
+.search-div button{
+    border: 2px solid #000;
+    background-color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+.search-div button:hover{
+    background-color: rgb(180,10,180);
+    color: white;
+}
